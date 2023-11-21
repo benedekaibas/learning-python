@@ -1,17 +1,19 @@
 
-a = 5 
-b = 4 
+#a = 5 
+#b = 89432
+class Math:
+    def add():
+        a = 4
+        b = 9
+        return a + b
 
-def add(a, b):
-    #a = 4 
-    #b = 4
-    return a + b
+    def multiply():
+        a = 5
+        b = 9
+        return a * b
 
-def multiply(a,b):
-    return a * b
-
-if __name__ == "__main__":
-    print(f"{add(a,b)}\n{multiply(a, b)}")
+    if __name__ == "__main__":
+        print(f"{add()}\n{multiply()}")
 
 
 

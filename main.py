@@ -7,7 +7,11 @@ def add(a, b):
     #b = 4
     return a + b
 
-print(add(a, b))
+def multiply(a,b):
+    return a * b
+
+if __name__ == "__main__":
+    print(f"{add(a,b)}\n{multiply(a, b)}")
 
 
 

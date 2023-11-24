@@ -1,5 +1,4 @@
 #path to the code: 
-#0 1492
 #C:\Users\kaiba\OneDrive\Asztali gép\learning\string_finder.py
 
 word = "kjhfdssjdnbsdbdfkbjkldbjdfbdbbbbdfklgfldjkgljkdfjklbjkldbfdkljgkjlfdjklgdfjklbkdfjklbjkffbbjkkjlfb"

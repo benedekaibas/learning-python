@@ -136,7 +136,7 @@ def insertion_sort_tim(array: List[int], left: int = 0, right=None):
     """Use an internal sorting algorithm for the timsort algorithm."""
     for i in range(left + 1, right + 1):
         j = i
-        while j > left and arr[j] < arr[j - 1]:
+        while j > left and array[j] < array[j - 1]:
             array[j], array[j - 1] = array[j - 1], array[j]
             j -= 1
 

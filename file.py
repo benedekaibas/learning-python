@@ -145,7 +145,7 @@ def tim_sort(array: List[int]) -> List[int]:
     """Sort the list called array with the tim sort algorithm using a special insertion sort."""
     sorted_runs = []
     runs = []
-    length = len(array)
+    length = len(array) 
     new_run = [array[0]]
 
     # for every i in the range of 1 to length of array
@@ -155,7 +155,7 @@ def tim_sort(array: List[int]) -> List[int]:
             new_run.append(array[i])
             runs.append(new_run)
             break
-        # if the i'th element of the array is less than the one before it
+
         if array[i] < array[i-1]:
             # if new_run is set to None (NULL)
             if not new_run:

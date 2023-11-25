@@ -143,3 +143,36 @@ def insertion_sort_tim(array: List[int], left: int = 0, right=None):
 
 def tim_sort(array: List[int]) -> List[int]:
     """Sort the list called array with the tim sort algorithm using a special insertion sort."""
+    sorted_runs = []
+    runs = []
+    length = len(array)
+    new_run = [array[0]]
+
+    # for every i in the range of 1 to length of array
+    for i in range(1, length):
+        # if i is at the end of the list
+        if i == length - 1:
+            new_run.append(array[i])
+            runs.append(new_run)
+            break
+        # if the i'th element of the array is less than the one before it
+        if array[i] < array[i-1]:
+            # if new_run is set to None (NULL)
+            if not new_run:
+                runs.append([array[i]])
+                new_run.append(array[i])
+            else:
+                runs.append(new_run)
+                new_run = []
+        # else if its equal to or more than
+        else:
+            new_run.append(array[i])
+
+    # for every item in runs, append it using insertion sort
+    for item in runs:
+        sorted_runs.append(insertion_sort(item))
+    
+    # for every run in sorted_runs, merge them
+    sorted_array = []
+    for run in sorted_runs:
+        sorted_array = merge(sorted_array, run)

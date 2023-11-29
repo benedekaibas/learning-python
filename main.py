@@ -1,19 +1,14 @@
 
-#a = 5 
-#b = 89432
-class Math:
-    def add():
-        a = 4
-        b = 9
-        return a + b
+def prim(start, end):
+    szamlalo = 0 
+    while start <= szamlalo <= end:
+        szamlalo += 1 
+        print(szamlalo)
 
-    def multiply():
-        a = 5
-        b = 9
-        return a * b
 
-    if __name__ == "__main__":
-        print(f"{add()}\n{multiply()}")
+
+if __name__ == "__main__":
+    prim(1, 10)
 
 
 

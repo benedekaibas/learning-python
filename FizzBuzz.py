@@ -1,6 +1,6 @@
 """
 Fizzbuzz: Koncentrációs játék, ahol 1-től kezdve soroljuk a számokat, és minden 3-mal osztahtó szám helyett azt kell mondani, 
-hogy Fizz, az 5-tel oszthatók helyett, hogy Buzz. Ha 3-mal és 5-tel is osztható a szám, akkor azt kell mondani, hogy FizzBuzz.
+hogy Fizz, az 5-tel oszthatók helyett, hogy Buzz.
 """
 
 def fizzbuzz():

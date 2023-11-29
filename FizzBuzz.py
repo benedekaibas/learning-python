@@ -13,6 +13,9 @@ def fizzbuzz():
         while i % 3 == 0:
             print(f" {i}: fizz")
             break
+        while i % 5 == 0:
+            print(f" {i}: buzz")
+            break
 
     
 if __name__ == "__main__":

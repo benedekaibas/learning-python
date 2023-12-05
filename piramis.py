@@ -1,4 +1,4 @@
-
+#Ez a program két piramist ad vissza, amelyek egy fél paralelogramma.
 global ROWS
 global LINES
 ROWS = 10

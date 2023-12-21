@@ -3,7 +3,7 @@
 
 """
 
-
+# TODO: Make the code cleaner in the if statement
 def letter_finder():
     text = str(input('Enter a text: '))
     letter = str(input('Enter a letter: '))

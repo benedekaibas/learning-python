@@ -1,0 +1,42 @@
+"""
+Írjon olyan programot, ami beolvas két szöveget és kiírja azt, amelyikben több az e betű
+
+"""
+def text_compare():
+
+    text_one = str(input('Enter a text: '))
+    text_two = str(input('Enter a second text: '))
+
+    count_e_one = text_one.count('e')
+    count_e_two =text_two.count('e')
+
+    if count_e_one > count_e_two:
+        print(f"The first text has {count_e_one} e letters while the second text {count_e_two} e letters. That's why the first text has more e letters ")
+    elif count_e_two > count_e_one:
+        print(f"The second text has {count_e_two} e letters while the first text {count_e_one} e letters. That's why the first text has more e letters ")
+    else:
+        print(f"Because the first text has {count_e_one} letters and the second text has {count_e_two} letters it's a tie.")
+if __name__ == "__main__":
+    text_compare()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

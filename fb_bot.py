@@ -1,3 +1,5 @@
+#TODO: delete it after done 
+
 #C:\Users\kaiba\OneDrive\Asztali gép\learning-python\fb_bot.py
 #TODO: make the import workable, because it has missing elements problems
 #making a facebook bot

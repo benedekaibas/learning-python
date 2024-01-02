@@ -1,0 +1,1 @@
+#C:\Users\kaiba\OneDrive\Asztali gép\learning-python\new.py

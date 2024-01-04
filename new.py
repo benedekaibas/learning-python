@@ -7,7 +7,7 @@ def main():
 
     pd.read_excel(filename, index_col= 0)
 
-    return 0
+    
 
 if __name__ == "__main__":
     main()

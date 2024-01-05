@@ -4,7 +4,11 @@ Suppose the following input is supplied to the program: 1,2,3,4,5,6,7,8,9 Then, 
 """
 
 def main():
-    return 1
+    list = [1,2,3,4,5,6,7,8,9]
+
+    for number in list:
+        if number % 2 != 0:
+            print(number)
 
 
 

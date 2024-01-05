@@ -1,6 +1,5 @@
 """
-Írjon olyan programot, ami beolvas két szöveget és kiírja azt, amelyikben több az e betű
-
+Írjon olyan programot, ami beolvas két szöveget és kiírja azt, amelyikben több az e betűW
 """
 def text_compare():
 

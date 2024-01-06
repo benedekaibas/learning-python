@@ -12,10 +12,19 @@ Given a year, determine whether it is a leap year. If it is a leap year, return 
 Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only necessary to complete the is_leap function.
 """
 
+#write your logic here
+
+
+
 def main():
-    isLeap = int(input("Enter a year: "))
+    year = int(input("Enter a year: "))
+    isLeap = True 
 
-
+    #TODO: finish this since it is only an example
+    if year % 4 == 0:
+        return isLeap
+    else:
+        print(f"{year} is not a leap year")
 
 
 

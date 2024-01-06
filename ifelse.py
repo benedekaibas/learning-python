@@ -19,7 +19,7 @@ Print Weird if the number is weird. Otherwise, print Not Weird.
 
 
 def main():
-    num = input("enter a number: ")
+    num = float(input("enter a number: "))
     
     if num % 2 != 0:
         print(f"{num} is an odd number!, Weird")

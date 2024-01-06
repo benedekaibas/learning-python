@@ -10,9 +10,12 @@ count = 0
 with open(filename, "r") as fh:
     content = fh.read()
     lowerText = content.lower()
+    print(lowerText)
     if "debrecen" in lowerText:
         count += 1
     print(count)
+
+    
 
 
 

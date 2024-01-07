@@ -18,11 +18,12 @@ Note that the code stub provided reads from STDIN and passes arguments to the is
 
 def main():
     year = int(input("Enter a year: "))
-    isLeap = True 
+    #we do not need it for this calculation 
+    #isLeap = True 
 
     #TODO: finish this since it is only an example
-    if year % 4 == 0:
-        return isLeap
+    if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
+        print(f"{year} is a leap year.")
     else:
         print(f"{year} is not a leap year")
 
